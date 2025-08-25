@@ -3,7 +3,7 @@
 A simple and fun **Tic Tac Toe project** built with **HTML, CSS, and JavaScript**.  
 Play against a friend in this classic 3x3 board game right in your browser!  
 
-🌐 **Live Demo**: [Play Here](https://BharathPadavu.github.io/tic-tac-toe-game/)  
+🌐 **Live Demo**: [Play Here](https://BharathPadavu.github.io/tic-tac-toe-game/index.html)  
 
 ---
 
