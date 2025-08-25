@@ -8,7 +8,7 @@ Play against a friend in this classic 3x3 board game right in your browser!
 ---
 
 ## 📸 Screenshot (Preview)
-![Tic Tac Toe Game](Screenshots/tic-tac-toe-empty-board.png "Tic Tac Toe main screenshot with empty 3x3 board")
+![Tic Tac Toe Game](screenshot.png"Tic Tac Toe main screenshot with empty 3x3 board")
 
 ---
 
