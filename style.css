@@ -1,84 +1,145 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: #97CC04;
     text-align: center;
 }
 
-.container {
-    height: 70vh;
+body {
+    background-color: #6fb1fd;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+}
+
+.choice {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: transform 0.2s ease-in-out;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+    transform: scale(1.05);
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    box-shadow: 0 0 1rem rgba(0, 0, 0 , 0.9);
+    border-radius: 50%; 
+}
+
+.choices {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+    flex-wrap: wrap; /* ✅ allows wrapping on smaller screens */
 }
 
-.game {
-    height: 60vmin;
-    width: 60vmin;
+.score-board {
+    margin-top: 3rem;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1.5vmin;
+    gap: 5rem;
+    font-size: 2rem;
+    flex-wrap: wrap; /* ✅ avoids overflow on smaller screens */
 }
 
-.box {
-    height: 18vmin;
-    width: 18vmin;
-    border: none;
-    border-radius: 1rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
-    font-size: 8vmin;
-    color: black;
-    background-color: #E8E5DA;
-}
-
-#reset-btn {
-    padding: 1rem;
-    font-size: 1.25rem;
-    border: none;
-    border-radius: 1rem;
-    background-color: black;
-    color: white;
-}
-
-#new-btn {
-    padding: 1rem;
-    font-size: 1.25rem;
-    border: none;
-    border-radius: 1rem;
-    background-color: black;
-    color: white;
-}
-
-#msg {
-    color: white;
-    background-color: black;
-    padding: 1rem;
-    font-size: 8vmin;
+#user-score,
+#comp-score {
+    font-size: 4rem;
 }
 
 .msg-container {
-    height: 100vmin;
+    margin-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    gap: 4rem;
+    padding: 0 1rem; /* ✅ avoids side overflow */
 }
 
-.hide {
-    display: none;
-}
-
-#heading {
-    margin-top: 2rem;
-    padding: 1rem;
-    color: white;
+#msg {
     background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 90%; /* ✅ prevents breaking layout */
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
 }
 
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        height: auto;
+        line-height: normal;
+        padding: 1rem;
+    }
 
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 110px;
+        width: 110px;
+    }
+
+    .choices {
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .choice {
+        height: 90px;
+        width: 90px;
+    }
+
+    img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .choices {
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .score-board {
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 2.5rem;
+    }
+
+    #msg {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+}
