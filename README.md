@@ -37,6 +37,15 @@ Play against a friend in this classic 3x3 board game right in your browser!
 
 ---
 
+## ⚠️ Limitations  
+
+- **No AI Opponent** – only supports 2 players on the same device (no single-player mode).  
+- **No Draw Detection** – the game does not automatically announce a draw if all cells are filled with no winner.  
+- **Basic Responsiveness** – layout scales with screen size, but not fully optimized for very small screens or mobile-first design.  
+- **No Score Tracking** – scores reset after each new game (no history of wins/losses).
+
+
+
 ## 📥 How to Run Locally
 ```bash
 git clone https://github.com/BharathPadavu/tic-tac-toe-game.git
