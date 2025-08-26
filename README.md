@@ -12,11 +12,21 @@ Play against a friend in this classic 3x3 board game right in your browser!
 
 ---
 
-## 🚀 Features
-- ✅ Classic 3x3 grid gameplay  
-- ✅ Two-player mode (X vs O)  
-- ✅ Responsive design with CSS  
-- ✅ Beginner-friendly (no frameworks required)  
+## 🚀 Features  
+
+🎲 **Classic 3×3 Grid Gameplay** – players take turns placing X and O.  
+
+👥 **Two-Player Mode** – play with a friend on the same device.  
+
+🏆 **Winner Detection** – game checks winning combinations and displays the winner.  
+
+🔄 **Reset & New Game Options** – restart the board without refreshing the page.  
+
+🖥️ **Basic Responsive Design** – the board and elements resize to fit different screen sizes using CSS flexbox and `vmin` units.  
+
+⚡ **Built with Pure HTML, CSS & JavaScript** – no external libraries or frameworks.  
+
+🎨 **Clean and Minimal UI** – simple styling with CSS3 (shadows, flexbox, responsive units).
 
 ---
 
