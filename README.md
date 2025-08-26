@@ -23,7 +23,7 @@ Play against a friend in this classic 3x3 board game right in your browser!
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla)
+- JavaScript
 
 ---
 
