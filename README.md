@@ -44,7 +44,7 @@ Play against a friend in this classic 3x3 board game right in your browser!
 - **Basic Responsiveness** – layout scales with screen size, but not fully optimized for very small screens or mobile-first design.  
 - **No Score Tracking** – scores reset after each new game (no history of wins/losses).
 
-
+---
 
 ## 📥 How to Run Locally
 ```bash
